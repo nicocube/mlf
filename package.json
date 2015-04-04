@@ -7,6 +7,7 @@
   "main": "lib/mlf.js",
   "scripts": {
     "test": "jasmine",
+    "autotest" : "nodemon node_modules/jasmine/bin/jasmine.js",
     "coverage": "istanbul cover jasmine"
   },
   "repository": {

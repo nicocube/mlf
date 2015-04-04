@@ -12,8 +12,10 @@ We will try to stick to our name, like a motto, to be Minimalist, Lazy and Fast.
 
 
 ## API :
-* Implemented lazily: map, filter, slice
-* Implemented (but not lazily): forEach, reduce, reduceRight, join, every, some
+* Implemented lazily (intermediate) : map, filter, slice
+* Implemented lazily (final) : get, forEach, reduce
+
+* Implemented (but not lazily): reduceRight, join, every, some
 * To be implemented: concat, indexOf, lastIndexOf, reverse, splice
 
 
