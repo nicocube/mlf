@@ -18,4 +18,3 @@ We will try to stick to our name, like a motto, to be Minimalist, Lazy and Fast.
 * Implemented (but not lazily): reduceRight, join, every, some
 * To be implemented: concat, indexOf, lastIndexOf, reverse, splice
 
-

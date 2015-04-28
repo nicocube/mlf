@@ -8,7 +8,8 @@
   "scripts": {
     "test": "jasmine",
     "autotest" : "nodemon node_modules/jasmine/bin/jasmine.js",
-    "coverage": "istanbul cover jasmine"
+    "coverage": "istanbul cover jasmine",
+    "lint" : "eslint lib/ spec/"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
   "devDependencies": {
     "jasmine": "~2.2.1",
     "istanbul": "~0.3.11"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
   }
 }
