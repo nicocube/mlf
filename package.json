@@ -7,9 +7,9 @@
   "main": "lib/mlf.js",
   "scripts": {
     "test": "jasmine",
-    "autotest" : "nodemon node_modules/jasmine/bin/jasmine.js",
+    "autotest": "nodemon node_modules/jasmine/bin/jasmine.js",
     "coverage": "istanbul cover jasmine",
-    "lint" : "eslint lib/ spec/"
+    "lint": "eslint lib/ spec/"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,9 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "jasmine": "~2.2.1",
-    "istanbul": "~0.3.11"
+    "bench": "^0.3.6",
+    "istanbul": "~0.3.11",
+    "jasmine": "~2.2.1"
   },
   "eslintConfig": {
     "env": {
