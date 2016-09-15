@@ -6,10 +6,6 @@ var a = [1, 42, 3, 5, 9, 70]
   , b = mlf(a)
 
 exports.compare = {
-  "vanilla forEach" : function () {
-    var c = 0
-    a.forEach(function() { c+=1 })
-  },
   "mlf forEach" : function () {
     var c = 0
     mlf(a).forEach(function() { c+=1 })
@@ -17,6 +13,10 @@ exports.compare = {
   "mlf cached forEach" : function () {
     var c = 0
     b.forEach(function() { c+=1 })
+  },
+  "vanilla forEach" : function () {
+    var c = 0
+    a.forEach(function() { c+=1 })
   }
 }
 
