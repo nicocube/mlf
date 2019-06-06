@@ -23,7 +23,7 @@
   "devDependencies": {
     "bench": "~0.3.6",
     "istanbul": "^0.4.5",
-    "jasmine": "^3.1.0"
+    "jasmine": "^3.4.0"
   },
   "eslintConfig": {
     "env": {
