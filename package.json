@@ -19,7 +19,6 @@
     "array",
     "lazy"
   ],
-  "dependencies": {},
   "devDependencies": {
     "bench": "~0.3.6",
     "istanbul": "^0.4.5",
